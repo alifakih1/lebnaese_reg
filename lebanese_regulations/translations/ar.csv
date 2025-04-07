@@ -1,0 +1,71 @@
+Module: Lebanese Regulations,وحدة: اللوائح اللبنانية
+Lebanese Regulations,اللوائح اللبنانية
+Lebanese Audit Checklist,قائمة التدقيق اللبنانية
+Lebanese Audit Checklist Item,عنصر قائمة التدقيق اللبنانية
+Lebanese General Ledger,دفتر الأستاذ العام اللبناني
+NSSF Compliance,الامتثال للصندوق الوطني للضمان الاجتماعي
+End of Service Indemnity,تعويض نهاية الخدمة
+Multi-Currency Reconciliation,تسوية متعددة العملات
+Lebanese GAAP Compliance,الامتثال للمبادئ المحاسبية المقبولة عموماً في لبنان
+Income Tax Calculation,حساب ضريبة الدخل
+Compliance Manager,مدير الامتثال
+Payroll Officer,مسؤول الرواتب
+NSSF Employee Contribution,مساهمة الموظف في الضمان الاجتماعي
+NSSF Employer Contribution,مساهمة صاحب العمل في الضمان الاجتماعي
+NSSF Number,رقم الضمان الاجتماعي
+Indemnity Accrual Rate,معدل استحقاق التعويض
+Indemnity Accrual Amount,مبلغ استحقاق التعويض
+Indemnity Start Date,تاريخ بدء التعويض
+LBP Currency Symbol,رمز العملة اللبنانية
+NSSF Payable Account,حساب الضمان الاجتماعي المستحق
+Indemnity Accrual Account,حساب استحقاق التعويض
+Foreign Currency,العملة الأجنبية
+Exchange Rate,سعر الصرف
+Debit (LBP),مدين (ل.ل)
+Credit (LBP),دائن (ل.ل)
+Debit (FC),مدين (عملة أجنبية)
+Credit (FC),دائن (عملة أجنبية)
+Show in LBP,عرض بالليرة اللبنانية
+Show Foreign Currency,عرض العملة الأجنبية
+Completion Percentage,نسبة الإنجاز
+Checklist Items,عناصر قائمة التحقق
+Item,العنصر
+Description,الوصف
+Priority,الأولوية
+Status,الحالة
+Completion Date,تاريخ الإنجاز
+Completed By,أنجز بواسطة
+Notes,ملاحظات
+Low,منخفض
+Medium,متوسط
+High,مرتفع
+Pending,قيد الانتظار
+In Progress,قيد التنفيذ
+Completed,مكتمل
+Not Applicable,غير قابل للتطبيق
+Mark All Completed,تحديد الكل كمكتمل
+Generate Report,إنشاء تقرير
+All items marked as completed,تم تحديد جميع العناصر كمكتملة
+NSSF Submission Deadline in,موعد تقديم الضمان الاجتماعي في
+days,أيام
+This is a reminder that the NSSF submission deadline,هذا تذكير بأن موعد تقديم الضمان الاجتماعي
+is in,هو في
+Please ensure all payroll entries are processed,يرجى التأكد من معالجة جميع إدخالات الرواتب
+and NSSF contributions are calculated correctly.,وحساب مساهمات الضمان الاجتماعي بشكل صحيح.
+NSSF Accrual for,استحقاق الضمان الاجتماعي لـ
+Indemnity Accrual for,استحقاق التعويض لـ
+NSSF Accrual Journal Entry,قيد يومية استحقاق الضمان الاجتماعي
+created,تم إنشاؤه
+Indemnity Accrual Journal Entry,قيد يومية استحقاق التعويض
+NSSF Salary Components not properly set up.,مكونات راتب الضمان الاجتماعي غير معدة بشكل صحيح.
+Please configure them in Salary Components.,يرجى تكوينها في مكونات الراتب.
+NSSF Payable Account not configured for company,حساب الضمان الاجتماعي المستحق غير مكون للشركة
+NSSF accrual entry not created.,لم يتم إنشاء قيد استحقاق الضمان الاجتماعي.
+Indemnity Accrual Account not configured for company,حساب استحقاق التعويض غير مكون للشركة
+Indemnity accrual entry not created.,لم يتم إنشاء قيد استحقاق التعويض.
+All checklist items must be marked as Completed or Not Applicable before submission.,يجب تحديد جميع عناصر قائمة التحقق كمكتملة أو غير قابلة للتطبيق قبل التقديم.
+The following items are still pending:,العناصر التالية لا تزال معلقة:
+Status Distribution,توزيع الحالة
+Priority Distribution,توزيع الأولوية
+Company,الشركة
+Fiscal Year,السنة المالية

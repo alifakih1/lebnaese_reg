@@ -1,0 +1,139 @@
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">Status Distribution</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="list-unstyled">
+                            <li>
+                                <span class="indicator red">
+                                    Pending: {{ status_counts.Pending }}
+                                </span>
+                            </li>
+                            <li>
+                                <span class="indicator blue">
+                                    In Progress: {{ status_counts['In Progress'] }}
+                                </span>
+                            </li>
+                            <li>
+                                <span class="indicator green">
+                                    Completed: {{ status_counts.Completed }}
+                                </span>
+                            </li>
+                            <li>
+                                <span class="indicator gray">
+                                    Not Applicable: {{ status_counts['Not Applicable'] }}
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="chart-container" style="height: 150px;">
+                            <canvas id="status-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">Priority Distribution</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="list-unstyled">
+                            <li>
+                                <span class="indicator red">
+                                    High: {{ priority_counts.High }}
+                                </span>
+                            </li>
+                            <li>
+                                <span class="indicator orange">
+                                    Medium: {{ priority_counts.Medium }}
+                                </span>
+                            </li>
+                            <li>
+                                <span class="indicator yellow">
+                                    Low: {{ priority_counts.Low }}
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="chart-container" style="height: 150px;">
+                            <canvas id="priority-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        // Status Chart
+        var statusCtx = document.getElementById('status-chart').getContext('2d');
+        var statusChart = new Chart(statusCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Pending', 'In Progress', 'Completed', 'Not Applicable'],
+                datasets: [{
+                    data: [
+                        {{ status_counts.Pending }},
+                        {{ status_counts['In Progress'] }},
+                        {{ status_counts.Completed }},
+                        {{ status_counts['Not Applicable'] }}
+                    ],
+                    backgroundColor: [
+                        '#ff5858',  // Red
+                        '#5e64ff',  // Blue
+                        '#28a745',  // Green
+                        '#6c757d'   // Gray
+                    ]
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                legend: {
+                    display: false
+                }
+            }
+        });
+        
+        // Priority Chart
+        var priorityCtx = document.getElementById('priority-chart').getContext('2d');
+        var priorityChart = new Chart(priorityCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['High', 'Medium', 'Low'],
+                datasets: [{
+                    data: [
+                        {{ priority_counts.High }},
+                        {{ priority_counts.Medium }},
+                        {{ priority_counts.Low }}
+                    ],
+                    backgroundColor: [
+                        '#ff5858',  // Red
+                        '#ffa00a',  // Orange
+                        '#ffdd00'   // Yellow
+                    ]
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                legend: {
+                    display: false
+                }
+            }
+        });
+    });
+</script>

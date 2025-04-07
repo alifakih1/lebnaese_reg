@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include lebanese_regulations *.css
+recursive-include lebanese_regulations *.csv
+recursive-include lebanese_regulations *.html
+recursive-include lebanese_regulations *.ico
+recursive-include lebanese_regulations *.js
+recursive-include lebanese_regulations *.json
+recursive-include lebanese_regulations *.md
+recursive-include lebanese_regulations *.png
+recursive-include lebanese_regulations *.py
+recursive-include lebanese_regulations *.svg
+recursive-include lebanese_regulations *.txt
+recursive-exclude lebanese_regulations *.pyc

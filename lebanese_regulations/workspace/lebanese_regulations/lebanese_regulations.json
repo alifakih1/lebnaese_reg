@@ -1,0 +1,247 @@
+{
+ "charts": [
+  {
+   "chart_name": "NSSF Compliance",
+   "label": "NSSF Compliance"
+  }
+ ],
+ "content": [
+  {
+   "type": "header",
+   "data": {
+    "text": "Lebanese Regulations",
+    "level": 1,
+    "image": null
+   }
+  },
+  {
+   "type": "paragraph",
+   "data": {
+    "text": "Adapt ERPNext for Lebanese compliance with multi-currency financial reports, NSSF integration, and localization features."
+   }
+  },
+  {
+   "type": "card",
+   "data": {
+    "card_name": "Compliance",
+    "col": 4
+   }
+  },
+  {
+   "type": "card",
+   "data": {
+    "card_name": "Payroll",
+    "col": 4
+   }
+  },
+  {
+   "type": "card",
+   "data": {
+    "card_name": "Reports",
+    "col": 4
+   }
+  }
+ ],
+ "creation": "2023-01-01 00:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "accounting",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Lebanese Regulations",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Compliance",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lebanese Audit Checklist",
+   "link_count": 0,
+   "link_to": "Lebanese Audit Checklist",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Currency Exchange",
+   "link_count": 0,
+   "link_to": "Currency Exchange",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payroll",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salary Component",
+   "link_count": 0,
+   "link_to": "Salary Component",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salary Structure",
+   "link_count": 0,
+   "link_to": "Salary Structure",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payroll Entry",
+   "link_count": 0,
+   "link_to": "Payroll Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Income Tax Slab",
+   "link_count": 0,
+   "link_to": "Income Tax Slab",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Lebanese General Ledger",
+   "link_count": 0,
+   "link_to": "Lebanese General Ledger",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Trial Balance",
+   "link_count": 0,
+   "link_to": "Trial Balance",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Balance Sheet",
+   "link_count": 0,
+   "link_to": "Balance Sheet",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Profit and Loss Statement",
+   "link_count": 0,
+   "link_to": "Profit and Loss Statement",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-01-01 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Lebanese Regulations",
+ "name": "Lebanese Regulations",
+ "number_cards": [
+  {
+   "label": "NSSF Submissions",
+   "number_card_name": "NSSF Submissions"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [
+  {
+   "role": "Accounts Manager"
+  },
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "Compliance Manager"
+  },
+  {
+   "role": "Payroll Officer"
+  }
+ ],
+ "sequence_id": 0.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Open",
+   "label": "Lebanese Audit Checklist",
+   "link_to": "Lebanese Audit Checklist",
+   "stats_filter": "[[\"status\",\"=\",\"In Progress\"]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "format": "{} Pending",
+   "label": "Payroll Entry",
+   "link_to": "Payroll Entry",
+   "stats_filter": "[[\"docstatus\",\"=\",\"0\"]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "{} Active",
+   "label": "Currency Exchange",
+   "link_to": "Currency Exchange",
+   "stats_filter": "[[\"to_currency\",\"=\",\"LBP\"]]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Lebanese Regulations"
+}

@@ -1,0 +1,81 @@
+Account Name,Parent Account,Account Number,Parent Account Number,Is Group,Account Type,Root Type
+Capital Tree,,1,,1,,Equity
+Capital ( Company or Individual ),Capital Tree,10,1,1,,Equity
+Reserves,Capital Tree,11,1,1,,Equity
+Brought Forward Results,Capital Tree,12,1,1,,Equity
+Net Result of the FI. PER.(PRO.or LOSS),Capital Tree,13,1,1,,Equity
+Investment Subsidies,Capital Tree,14,1,1,,Equity
+Risk Provisions & Charges,Capital Tree,15,1,1,,Equity
+Long & Medium Terms Debts,Capital Tree,16,1,1,,Equity
+Accounts With Affiliated Companies,Capital Tree,18,1,1,,Equity
+Charges & Income Grouping Acc.,Capital Tree,19,1,1,,Equity
+Assets Tree,,2,,1,,Asset
+Intangible Fixed Assets,Assets Tree,21,2,1,,Asset
+Tangible Fixed Assets,Assets Tree,22,2,1,Fixed Asset,Asset
+Financial Fixed Assets,Assets Tree,25,2,1,,Asset
+Depreciation of Fixed Assets,Assets Tree,28,2,1,Accumulated Depreciation,Asset
+Provision for Diminution in Value of F.A.,Assets Tree,29,2,1,,Asset
+Inventory & Goods in Progress,,3,,1,,Asset
+Raw materials and supplies,Inventory & Goods in Progress,31,3,1,,Asset
+Goods in Process,Inventory & Goods in Progress,33,3,1,,Asset
+Products,Inventory & Goods in Progress,35,3,1,,Asset
+Merchandise for Sale,Inventory & Goods in Progress,37,3,1,,Asset
+Stock In Hand,Merchandise for Sale,37100001,37,0,Stock,Asset
+Depreciation of stocks and work in progress,Inventory & Goods in Progress,39,3,1,,Asset
+Receivables & Payables,,4,,1,,Liability
+Suppliers,Receivables & Payables,40,4,1,Payable,Liability
+Accounts Payables ( Suppliers ),Suppliers,401,40,1,Payable,Liability
+Suppliers Invoices,Accounts Payables ( Suppliers ),40110001,401,0,Payable,Liability
+Goods Received without Invoices,Accounts Payables ( Suppliers ),40180001,401,0,Stock Received But Not Billed,Liability
+Customers,Receivables & Payables,41,4,1,Receivable,Liability
+Ordinary Clients,Customers,411,41,1,Receivable,Liability
+Customer,Ordinary Clients,41110001,411,0,Receivable,Liability
+Personnel,Receivables & Payables,42,4,1,,Liability
+Social Security,Receivables & Payables,43,4,1,,Liability
+Gov't Public Institution,Receivables & Payables,44,4,1,,Liability
+Partners,Receivables & Payables,45,4,1,,Liability
+MSC. Receivables & Payables,Receivables & Payables,46,4,1,,Liability
+Pre-Payments & Accruals,Receivables & Payables,47,4,1,,Liability
+Transitory & Regularization Account,Receivables & Payables,48,4,1,,Liability
+Periodical Allocation of Expenses,Transitory & Regularization Account,481,48,1,,Liability
+Periodical Allocation of Income,Transitory & Regularization Account,482,48,1,,Liability
+Provision,Receivables & Payables,49,4,1,,Liability
+Financial Tree,,5,,1,,Asset
+Security Placement,Financial Tree,50,5,1,,Asset
+Financial Institution,Financial Tree,51,5,1,,Asset
+Banks,Financial Institution,512,51,1,Bank,Asset
+Bank LBP,Banks,5120001,512,0,Bank,Asset
+Cash,Financial Tree,53,5,1,Cash,Asset
+Cash LBP,Cash,53000001,53,0,Cash,Asset
+Internal Transfer,Financial Tree,58,5,1,,Asset
+Provisions for Diminution of Bonds,Financial Tree,59,5,1,,Asset
+Expenditure,,6,,1,,Expense
+Purchase & value change of Inventory,Expenditure,60,6,1,,Expense
+Purchases,Purchase & value change of Inventory,601,60,1,,Expense
+Purchase Expenses,Purchases,60180001,601,0,Cost of Goods Sold,Expense
+Discount & Allowances Earned,Purchases,60190001,601,0,Cost of Goods Sold,Expense
+Variation of Inventory,Purchase & value change of Inventory,605,60,1,Stock Adjustment,Expense
+Initial Inventory,Variation of Inventory,60510001,605,0,Stock Adjustment,Expense
+Final Inventory,Variation of Inventory,60520001,605,0,Stock Adjustment,Expense
+Purchase of Raw Materials and Consumables,Expenditure,61,6,1,,Expense
+Other Charges & Disbursements,Expenditure,62,6,1,,Expense
+Personnel Charges,Expenditure,63,6,1,,Expense
+Fees & Taxes,Expenditure,64,6,1,,Expense
+"Amortization, Depreciation & Provisions (Operational)",Expenditure,65,6,1,Depreciation,Expense
+Other Operating Charges,Expenditure,66,6,1,,Expense
+Financial Charges,Expenditure,67,6,1,,Expense
+Negative Exchange Differences,Financial Charges,675,67,1,Round Off,Expense
+Negative Exchange Differences on Normal Operations,Negative Exchange Differences,6750001,675,0,Round Off,Expense
+Non Operating Charges,Expenditure,68,6,1,,Expense
+Income Tax,Expenditure,69,6,1,,Expense
+Income,,7,,1,,Income
+Sales Of Goods,Income,70,7,1,,Income
+Direct Sales,Sales Of Goods,70100001,70,0,Income Account,Income
+Sales Of Production,Income,71,7,1,,Income
+Production  ( Variation ),Income,72,7,1,,Income
+Production of Fixed Assets,Income,73,7,1,,Income
+Subsidies for investment,Income,74,7,1,,Income
+Provision Write-Back,Income,75,7,1,,Income
+Other Operating Income,Income,76,7,1,,Income
+Financial Revenues,Income,77,7,1,,Income
+Non Operating Revenues,Income,78,7,1,,Income
