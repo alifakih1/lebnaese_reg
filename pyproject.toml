@@ -20,3 +20,11 @@ dependencies = [
 
 [tool.bench]
 app_name = "lebanese_regulations"
+
+[tool.bench.dev-dependencies]
+frappe = "~15.0.0"
+erpnext = "~15.0.0"
+hrms = "~15.0.0"
+
+[tool.bench.assets]
+lebanese_regulations = {path = "lebanese_regulations/public"}
