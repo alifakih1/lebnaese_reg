@@ -56,8 +56,10 @@ Adapt ERPNext for Lebanese compliance with multi-currency financial reports, NSS
 
 ```
 bench get-app https://github.com/alifakih1/lebanese_regulations
-bench --site your-site install-app lebanese_regulations
+bench --site your-site install-app lebanese_regulations --skip-assets
 ```
+
+Note: The `--skip-assets` flag is important as it skips the asset building process, which may cause errors in some environments.
 
 2. Import Lebanese Chart of Accounts:
 
@@ -69,6 +71,34 @@ bench --site your-site import-chart-of-accounts lebanese_regulations/setup/coa_l
 
 ```
 bench --site your-site execute lebanese_regulations.install.after_install
+```
+
+### Manual Asset Building (Optional)
+
+If you want to enable the frontend features of the app, you'll need to build the assets manually:
+
+1. Navigate to the app directory:
+
+```
+cd /path/to/frappe-bench/apps/lebanese_regulations
+```
+
+2. Install the Node.js dependencies:
+
+```
+npm install
+```
+
+3. Build the assets:
+
+```
+npm run build
+```
+
+4. Restart the bench:
+
+```
+bench restart
 ```
 
 ## Configuration
