@@ -21,6 +21,7 @@ dependencies = [
 [tool.bench]
 app_name = "lebanese_regulations"
 skip_build_assets = true
+disable_asset_building = true  # Completely disable asset processing
 
 [tool.bench.dev-dependencies]
 frappe = "~15.0.0"
