@@ -55,8 +55,8 @@ Adapt ERPNext for Lebanese compliance with multi-currency financial reports, NSS
 1. Install the app:
 
 ```
-bench get-app https://github.com/alifakih1/lebanese_regulations
-bench --site your-site install-app lebanese_regulations --skip-assets
+bench get-app https://github.com/alifakih1/lebanese_reg
+bench --site your-site install-app lebanese_regulations --skip-assets --skip-assets
 ```
 
 Note: The `--skip-assets` flag is important as it skips the asset building process, which may cause errors in some environments.

@@ -15,25 +15,25 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/lebanese_regulations/css/lebanese_regulations.css"
-# app_include_js = ["/assets/lebanese_regulations/dist/lebanese_regulations.bundle.js"]
+# # app_include_css = "/assets/lebanese_regulations/css/lebanese_regulations.css"
+# # app_include_js = ["/assets/lebanese_regulations/dist/lebanese_regulations.bundle.js"]
 
 # include js, css files in header of web template
-# web_include_css = "/assets/lebanese_regulations/css/lebanese_regulations_web.css"
-# web_include_js = "/assets/lebanese_regulations/js/lebanese_regulations_web.js"
+# # web_include_css = "/assets/lebanese_regulations/css/lebanese_regulations_web.css"
+# # web_include_js = "/assets/lebanese_regulations/js/lebanese_regulations_web.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "lebanese_regulations/public/scss/website"
+# # website_theme_scss = "lebanese_regulations/public/scss/website"
 
 # include js, css files in header of web form
-# webform_include_js = {"Salary Slip": "/assets/lebanese_regulations/js/salary_slip.js"}
-# webform_include_css = {"Salary Slip": "/assets/lebanese_regulations/css/salary_slip.css"}
+# # webform_include_js = {"Salary Slip": "/assets/lebanese_regulations/js/salary_slip.js"}
+# # webform_include_css = {"Salary Slip": "/assets/lebanese_regulations/css/salary_slip.css"}
 
 # include js in page
-# page_js = {"general-ledger" : "/assets/lebanese_regulations/js/general_ledger.js"}
+# # page_js = {"general-ledger" : "/assets/lebanese_regulations/js/general_ledger.js"}
 
 # include js in doctype views
-# doctype_js = {
+# # doctype_js = {
 #     "Company": "/assets/lebanese_regulations/js/company.js",
 #     "Sales Invoice": "/assets/lebanese_regulations/js/sales_invoice.js",
 #     "Purchase Invoice": "/assets/lebanese_regulations/js/purchase_invoice.js",
@@ -43,13 +43,13 @@ app_license = "MIT"
 #     "Payroll Entry": "/assets/lebanese_regulations/js/payroll_entry.js",
 # }
 
-# doctype_list_js = {
+# # doctype_list_js = {
 #     "Salary Slip": "/assets/lebanese_regulations/js/salary_slip_list.js",
 #     "Currency Exchange": "/assets/lebanese_regulations/js/currency_exchange_list.js",
 #     "Lebanese Audit Checklist": "/assets/lebanese_regulations/js/lebanese_audit_checklist_list.js"
 # }
-# doctype_tree_js = {"Account": "/assets/lebanese_regulations/js/account_tree.js"}
-# doctype_calendar_js = {"Payroll Entry": "/assets/lebanese_regulations/js/payroll_entry_calendar.js"}
+# # doctype_tree_js = {"Account": "/assets/lebanese_regulations/js/account_tree.js"}
+# # doctype_calendar_js = {"Payroll Entry": "/assets/lebanese_regulations/js/payroll_entry_calendar.js"}
 
 # Home Pages
 # ----------
