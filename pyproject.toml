@@ -1,0 +1,23 @@
+[project]
+name = "lebanese_regulations"
+version = "0.1.0"
+description = "Adapt ERPNext for Lebanese compliance"
+requires-python = ">=3.10"
+authors = [
+    {name = "Ali H. Fakih", email = "info@kiwinmore.com"}
+]
+readme = "README.md"
+license = {file = "license.txt"}
+requires-python = ">=3.10"
+dependencies = [
+    "frappe",
+    "erpnext",
+    "hrms"
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.bench.apps]
+lebanese_regulations = {path = "."}

@@ -4,11 +4,11 @@
 
 app_name = "lebanese_regulations"
 app_title = "Lebanese Regulations"
-app_publisher = "Your Name"
+app_publisher = "Ali H. Fakih"
 app_description = "Adapt ERPNext for Lebanese compliance"
 app_icon = "octicon octicon-file-directory"
 app_color = "#589494"
-app_email = "your.email@example.com"
+app_email = "info@kiwinmore.com"
 app_license = "MIT"
 
 # Includes in <head>

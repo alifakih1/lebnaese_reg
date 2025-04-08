@@ -1,11 +1,23 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2023, Your Name and contributors
+# Copyright (c) 2023, Ali H. Fakih and contributors
 # For license information, please see license.txt
 
 import frappe
 from frappe import _
 import os
 import json
+
+def before_install():
+    """
+    Setup for Lebanese Regulations module before installation
+    """
+    # Check if required apps are installed
+    required_apps = ["erpnext", "hrms"]
+    for app in required_apps:
+        if not frappe.db.exists("Module Def", {"app_name": app}):
+            frappe.throw(_("Please install {0} app before installing Lebanese Regulations").format(app))
+    
+    frappe.msgprint(_("Preparing to install Lebanese Regulations module..."))
 
 def after_install():
     """
