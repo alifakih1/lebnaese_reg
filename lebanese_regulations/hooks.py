@@ -16,7 +16,7 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 app_include_css = "/assets/lebanese_regulations/css/lebanese_regulations.css"
-app_include_js = ["lebanese_regulations.bundle.js"]
+app_include_js = ["/assets/lebanese_regulations/dist/lebanese_regulations.bundle.js"]
 
 # include js, css files in header of web template
 web_include_css = "/assets/lebanese_regulations/css/lebanese_regulations_web.css"
@@ -26,30 +26,30 @@ web_include_js = "/assets/lebanese_regulations/js/lebanese_regulations_web.js"
 website_theme_scss = "lebanese_regulations/public/scss/website"
 
 # include js, css files in header of web form
-webform_include_js = {"Salary Slip": "public/js/salary_slip.js"}
-webform_include_css = {"Salary Slip": "public/css/salary_slip.css"}
+webform_include_js = {"Salary Slip": "/assets/lebanese_regulations/js/salary_slip.js"}
+webform_include_css = {"Salary Slip": "/assets/lebanese_regulations/css/salary_slip.css"}
 
 # include js in page
-page_js = {"general-ledger" : "public/js/general_ledger.js"}
+page_js = {"general-ledger" : "/assets/lebanese_regulations/js/general_ledger.js"}
 
 # include js in doctype views
 doctype_js = {
-    "Company": "public/js/company.js",
-    "Sales Invoice": "public/js/sales_invoice.js",
-    "Purchase Invoice": "public/js/purchase_invoice.js",
-    "Employee": "public/js/employee.js",
-    "Salary Structure": "public/js/salary_structure.js",
-    "Salary Slip": "public/js/salary_slip.js",
-    "Payroll Entry": "public/js/payroll_entry.js",
+    "Company": "/assets/lebanese_regulations/js/company.js",
+    "Sales Invoice": "/assets/lebanese_regulations/js/sales_invoice.js",
+    "Purchase Invoice": "/assets/lebanese_regulations/js/purchase_invoice.js",
+    "Employee": "/assets/lebanese_regulations/js/employee.js",
+    "Salary Structure": "/assets/lebanese_regulations/js/salary_structure.js",
+    "Salary Slip": "/assets/lebanese_regulations/js/salary_slip.js",
+    "Payroll Entry": "/assets/lebanese_regulations/js/payroll_entry.js",
 }
 
 doctype_list_js = {
-    "Salary Slip": "public/js/salary_slip_list.js",
-    "Currency Exchange": "public/js/currency_exchange_list.js",
-    "Lebanese Audit Checklist": "public/js/lebanese_audit_checklist_list.js"
+    "Salary Slip": "/assets/lebanese_regulations/js/salary_slip_list.js",
+    "Currency Exchange": "/assets/lebanese_regulations/js/currency_exchange_list.js",
+    "Lebanese Audit Checklist": "/assets/lebanese_regulations/js/lebanese_audit_checklist_list.js"
 }
-doctype_tree_js = {"Account": "public/js/account_tree.js"}
-doctype_calendar_js = {"Payroll Entry": "public/js/payroll_entry_calendar.js"}
+doctype_tree_js = {"Account": "/assets/lebanese_regulations/js/account_tree.js"}
+doctype_calendar_js = {"Payroll Entry": "/assets/lebanese_regulations/js/payroll_entry_calendar.js"}
 
 # Home Pages
 # ----------

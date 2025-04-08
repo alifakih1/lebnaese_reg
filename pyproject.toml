@@ -20,6 +20,7 @@ dependencies = [
 
 [tool.bench]
 app_name = "lebanese_regulations"
+skip_build_assets = true
 
 [tool.bench.dev-dependencies]
 frappe = "~15.0.0"
