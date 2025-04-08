@@ -15,6 +15,7 @@ app_license = "MIT"
 # Minimal valid asset references
 app_include_js = {"lebanese_regulations": "public/js/lebanese_regulations.js"}
 app_include_css = {"lebanese_regulations": "public/css/lebanese_regulations.css"}
+skip_asset_building = True  # Disable Frappe's asset pipeline
 # Includes in <head>
 # ------------------
 
