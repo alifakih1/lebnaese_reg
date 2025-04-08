@@ -11,6 +11,10 @@ app_color = "#589494"
 app_email = "info@kiwinmore.com"
 app_license = "MIT"
 
+
+# Minimal valid asset references
+app_include_js = {"lebanese_regulations": "public/js/lebanese_regulations.js"}
+app_include_css = {"lebanese_regulations": "public/css/lebanese_regulations.css"}
 # Includes in <head>
 # ------------------
 
